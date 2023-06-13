@@ -2491,7 +2491,15 @@ html {
     }
   
     .menu-button {
+      width: 60px;
+      height: 60px;
+      opacity: 1;
+      padding: 0;
       overflow: hidden;
+    }
+  
+    .menu-button.w--open {
+      background-color: rgba(0, 0, 0, 0);
     }
   
     .col-proj-2m {
@@ -2511,6 +2519,70 @@ html {
   
     .image-5 {
       width: 100%;
+    }
+  
+    .nav-menu {
+      background-color: #171717;
+    }
+  
+    .top-line {
+      width: 40px;
+      height: 2px;
+      background-color: #27648a;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0;
+      padding-right: 0;
+      position: absolute;
+      top: 18px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .middle-line {
+      width: 40px;
+      height: 2px;
+      background-color: #27648a;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0;
+      padding-right: 0;
+      position: absolute;
+      top: 28px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .bottom-line {
+      width: 40px;
+      height: 2px;
+      background-color: #27648a;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0;
+      padding-right: 0;
+      position: absolute;
+      top: 38px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .ham {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+    }
+  
+    .ham.w--open {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  
+    .menu-button-2 {
+      width: 60px;
+      height: 60px;
     }
   }
   
@@ -2532,15 +2604,33 @@ html {
       padding-left: 10px;
       padding-right: 10px;
     }
+  
+    .logo {
+      max-width: 47px;
+      object-fit: fill;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
   
   @media screen and (max-width: 479px) {
-    .hero-heading, .hero-heading-1 {
-      font-size: 54px;
+    .hero-heading {
+      margin-bottom: 0;
+      font-size: 40px;
+    }
+  
+    .hero-heading-1 {
+      margin-top: 0;
+      font-size: 40px;
     }
   
     .paragraph {
       padding-right: 0%;
+    }
+  
+    .paragraph-2 {
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
   
     .self {
