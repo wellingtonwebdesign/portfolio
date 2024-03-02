@@ -2858,3 +2858,10 @@ html {
     font-style: normal;
     font-display: swap;
   }
+
+  .w-webflow-badge > img {
+    visibility: visible !important;
+    opacity: 1 !important;
+    vertical-align: middle !important;
+    display: none !important;
+  }
