@@ -296,6 +296,10 @@ html {
     margin: unset;
   }
   
+  pre.w-code-block code {
+    all: inherit;
+  }
+  
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     font-weight: bold;
@@ -2277,10 +2281,6 @@ html {
     font-weight: 600;
   }
   
-  .paragraph-5.p-edit {
-    margin-bottom: 152px;
-  }
-  
   .col-proj-2 {
     background-color: rgba(0, 0, 0, .03);
     border-radius: 5px;
@@ -2338,6 +2338,7 @@ html {
     width: 917px;
     height: 404px;
     object-fit: cover;
+    object-position: 0% 100%;
   }
   
   .image-4 {
@@ -2451,6 +2452,11 @@ html {
   
     .menu-button.w--open {
       background-color: rgba(0, 0, 0, 0);
+    }
+  
+    .image-4 {
+      max-width: 100%;
+      object-fit: fill;
     }
   
     .col-proj-2m {
@@ -2857,11 +2863,4 @@ html {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-  }
-
-  .w-webflow-badge > img {
-    visibility: visible !important;
-    opacity: 1 !important;
-    vertical-align: middle !important;
-    display: none !important;
   }
